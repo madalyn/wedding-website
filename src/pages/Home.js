@@ -3,7 +3,33 @@ import react from "react";
 export default function Home() {
   return (
     <div>
-      <h1 className="mt-5 text-secondary">Madalyn & Wesley</h1>
+      <div
+        className="bg-image"
+        style={{
+          backgroundImage: "url('/tamarack_org.jpg')",
+          backgroundSize: "cover",
+          width: "100%",
+          minHeight: "100vh",
+          backgroundPositionY: "center",
+        }}
+      >
+        <div
+          className="mask"
+          style={{
+            backgroundColor: "rgba(0, 0, 0, 0.6)",
+            width: "100%",
+            minHeight: "100vh",
+          }}
+        >
+          <div className="d-flex justify-content-center align-items-center height-500-px text-white">
+            <div>
+              <h1>Madalyn & Wesley</h1>
+              <p>Date: TBD</p>
+            </div>
+          </div>
+          <div className="dark-color m-5 min-height-300-px">test</div>
+        </div>
+      </div>
     </div>
   );
 }
