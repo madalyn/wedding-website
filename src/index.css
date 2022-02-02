@@ -31,3 +31,7 @@ code {
 .height-500-px {
   height: 500px;
 }
+
+.mt-neg-200-px {
+  margin-top: -200px;
+}
