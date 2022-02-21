@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App dark-color vh-100">
+    <div className="App dark-color h-100">
       <Home />
     </div>
   );

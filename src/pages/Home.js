@@ -9,7 +9,7 @@ export default function Home() {
           backgroundImage: "url('/tamarack_org.jpg')",
           backgroundSize: "cover",
           width: "100%",
-          minHeight: "50vh",
+          minHeight: "100vh",
           backgroundPositionY: "center",
         }}
       >
@@ -18,7 +18,7 @@ export default function Home() {
           style={{
             backgroundColor: "rgba(0, 0, 0, 0.6)",
             width: "100%",
-            minHeight: "50vh",
+            minHeight: "100vh",
           }}
         >
           <div className="d-flex justify-content-center align-items-center height-500-px text-white">
@@ -27,6 +27,7 @@ export default function Home() {
               <p>Date: TBD</p>
             </div>
           </div>
+          <div className="light-color m-5 height-500-px">More content here</div>
         </div>
       </div>
       <div className="vh-50 p-5">
